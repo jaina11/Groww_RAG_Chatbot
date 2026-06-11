@@ -9,9 +9,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from runtime.phase_5_retrieval.logging_config import setup_runtime_logger
-from runtime.phase_8_threads.chat import post_user_message
 from runtime.phase_8_threads.store import create_thread, get_history, list_threads
-from runtime.phase_9_api.response_builder import build_post_message_response
 from runtime.phase_9_api.schemas import (
     HealthResponse,
     MessageListResponse,
@@ -128,9 +126,15 @@ def create_app() -> FastAPI:
     ) -> PostMessageResponse:
         """
         Accept a user query, run the safety pipeline, and persist both messages.
+
+        ML imports are deferred here so startup stays lightweight on memory-
+        constrained hosts (e.g. Render free tier).
         """
         if not _thread_exists(thread_id):
             raise HTTPException(status_code=404, detail="thread not found")
+
+        from runtime.phase_8_threads.chat import post_user_message
+        from runtime.phase_9_api.response_builder import build_post_message_response
 
         try:
             result = post_user_message(thread_id=thread_id, query=body.query.strip())
