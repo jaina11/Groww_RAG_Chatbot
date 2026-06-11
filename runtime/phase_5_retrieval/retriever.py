@@ -7,6 +7,7 @@ from dataclasses import dataclass
 from typing import Dict, List, Optional
 
 import chromadb
+from sentence_transformers import SentenceTransformer
 
 from ingest.phase_4_2_embed.embedder import BGEEmbedder
 from runtime.phase_5_retrieval.logging_config import setup_runtime_logger
@@ -15,6 +16,41 @@ from runtime.phase_5_retrieval.scheme_resolver import resolve_scheme_id
 DEFAULT_CHROMA_DIR = "data/chroma/"
 DEFAULT_COLLECTION_NAME = "mf_faq_chunks"
 DEFAULT_TOP_K = 5
+DEFAULT_EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
+DEFAULT_QUERY_PREFIX = "Represent this sentence: "
+EMBEDDING_DIMENSION = 384
+
+_model = None
+
+
+def get_model() -> SentenceTransformer:
+    """
+    Load the BGE embedding model on first use to avoid startup memory spikes.
+    """
+    global _model
+    if _model is None:
+        model_name = os.environ.get("EMBEDDING_MODEL", DEFAULT_EMBEDDING_MODEL)
+        _model = SentenceTransformer(model_name)
+    return _model
+
+
+def _embed_query(query: str) -> List[float]:
+    """
+    Embed a user query with the BGE retrieval prefix using the lazy-loaded model.
+    """
+    query_prefix = os.environ.get("EMBEDDING_QUERY_PREFIX", DEFAULT_QUERY_PREFIX)
+    prefixed = f"{query_prefix}{query}"
+    vectors = get_model().encode(
+        [prefixed],
+        normalize_embeddings=True,
+        show_progress_bar=False,
+    )
+    embedding = [float(value) for value in vectors[0]]
+    if len(embedding) != EMBEDDING_DIMENSION:
+        raise ValueError(
+            f"expected {EMBEDDING_DIMENSION}-dim embedding, got {len(embedding)}"
+        )
+    return embedding
 
 
 @dataclass(frozen=True)
@@ -54,14 +90,14 @@ class ChromaRetriever:
         embedder: Optional[BGEEmbedder] = None,
     ) -> None:
         """
-        Connect to Chroma and prepare the BGE embedder for query encoding.
+        Connect to Chroma; the BGE model loads lazily on the first query.
         """
         self.chroma_dir = chroma_dir or os.environ.get("CHROMA_DIR", DEFAULT_CHROMA_DIR)
         self.collection_name = collection_name or os.environ.get(
             "CHROMA_COLLECTION", DEFAULT_COLLECTION_NAME
         )
         self.top_k = top_k or int(os.environ.get("RETRIEVAL_TOP_K", DEFAULT_TOP_K))
-        self.embedder = embedder or BGEEmbedder()
+        self._embedder = embedder
         self._client = chromadb.PersistentClient(path=self.chroma_dir)
         self._collection = self._client.get_collection(name=self.collection_name)
         self._logger = setup_runtime_logger("runtime.phase_5_retrieval")
@@ -74,7 +110,10 @@ class ChromaRetriever:
         in the query text.
         """
         scheme_id = resolve_scheme_id(query)
-        query_embedding = self.embedder.embed_query(query)
+        if self._embedder is not None:
+            query_embedding = self._embedder.embed_query(query)
+        else:
+            query_embedding = _embed_query(query)
 
         query_kwargs = {
             "query_embeddings": [query_embedding],
