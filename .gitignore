@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+
+data/threads.db
+data/active_thread.txt
+
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+env/
+
+.DS_Store

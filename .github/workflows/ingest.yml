@@ -1,0 +1,41 @@
+name: Daily Ingest
+
+on:
+  schedule:
+    # 09:15 IST = 03:45 UTC (India has no DST)
+    - cron: "45 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape allowlisted Groww pages (Phase 4.0)
+        run: python -m ingest.phase_4_0_scraper
+        env:
+          LOG_LEVEL: INFO
+          RAW_DATA_DIR: data/raw
+
+      # Future phases: normalize → chunk + embed → Chroma upsert
+
+      - name: Upload raw HTML artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-html-${{ github.run_id }}
+          path: data/raw/*.html
+          if-no-files-found: ignore

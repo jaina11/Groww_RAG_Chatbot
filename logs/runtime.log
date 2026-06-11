@@ -1,0 +1,149 @@
+2026-06-10T15:54:55+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-10T15:56:08+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-10T16:21:58+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-10T16:21:59+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the expense ratio of HDFC Mid Cap Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-10T16:24:02+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-10T16:24:02+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the expense ratio of HDFC Mid Cap Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-10T16:33:37+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-10T16:33:38+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the expense ratio of HDFC Mid Cap Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-10T16:36:03+0900 INFO [runtime.phase_7_safety] advisory refusal: query='Should I invest in HDFC Mid Cap?' matched_keyword=should i
+2026-06-10T16:36:37+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-10T16:36:38+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the expense ratio of HDFC Mid Cap Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-10T16:36:38+0900 INFO [runtime.phase_7_safety] answer complete: query='What is the expense ratio of HDFC Mid Cap Fund?' route=factual refused=False validation_passed=True
+2026-06-10T16:37:23+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the exit load of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-10T16:37:24+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the exit load of HDFC Mid Cap Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-10T16:37:24+0900 INFO [runtime.phase_7_safety] answer complete: query='What is the exit load of HDFC Mid Cap Fund?' route=factual refused=False validation_passed=True
+2026-06-10T16:37:38+0900 INFO [runtime.phase_7_safety] advisory refusal: query='Should I invest in HDFC Mid Cap Fund?' matched_keyword=should i
+2026-06-10T16:40:37+0900 INFO [runtime.phase_7_safety] advisory refusal: query='Should I invest in HDFC Mid Cap?' matched_keyword=should i
+2026-06-10T16:40:37+0900 INFO [runtime.phase_8_threads] posted message: thread_id=d2eedc81-c2aa-40d7-9599-c3029929928f route=advisory refused=True history_count=2
+2026-06-10T16:41:56+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the minimum SIP for HDFC Mid Cap?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-10T16:41:56+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the minimum SIP for HDFC Mid Cap?' validation_passed=True regenerated=False used_fallback=False
+2026-06-10T16:41:56+0900 INFO [runtime.phase_7_safety] answer complete: query='What is the minimum SIP for HDFC Mid Cap?' route=factual refused=False validation_passed=True
+2026-06-10T16:41:56+0900 INFO [runtime.phase_8_threads] posted message: thread_id=9566bcde-be04-4fc2-99b9-abfa7bb2ccac route=factual refused=False history_count=2
+2026-06-10T16:44:39+0900 INFO [runtime.phase_9_api] created thread: id=0c508bdf-0680-40c2-bf29-05a98b0834a2
+2026-06-10T16:44:47+0900 INFO [runtime.phase_7_safety] advisory refusal: query='Should I invest in HDFC Mid Cap?' matched_keyword=should i
+2026-06-10T16:44:47+0900 INFO [runtime.phase_8_threads] posted message: thread_id=0c508bdf-0680-40c2-bf29-05a98b0834a2 route=advisory refused=True history_count=2
+2026-06-10T16:44:47+0900 INFO [runtime.phase_9_api] api message complete: thread_id=0c508bdf-0680-40c2-bf29-05a98b0834a2 refused=True
+2026-06-10T16:47:52+0900 INFO [runtime.phase_9_api] created thread: id=b3fd02ba-fc1a-4272-8d1c-77dfa4a3c7d5
+2026-06-10T16:49:48+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-10T16:49:49+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the expense ratio of HDFC Mid Cap Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-10T16:49:49+0900 INFO [runtime.phase_7_safety] answer complete: query='What is the expense ratio of HDFC Mid Cap Fund?' route=factual refused=False validation_passed=True
+2026-06-10T16:49:49+0900 INFO [runtime.phase_8_threads] posted message: thread_id=b3fd02ba-fc1a-4272-8d1c-77dfa4a3c7d5 route=factual refused=False history_count=2
+2026-06-10T16:49:49+0900 INFO [runtime.phase_9_api] api message complete: thread_id=b3fd02ba-fc1a-4272-8d1c-77dfa4a3c7d5 refused=False
+2026-06-10T16:54:13+0900 INFO [runtime.phase_9_api] created thread: id=d524f461-b76d-4c51-9118-4b50a3d0f48b
+2026-06-10T16:54:19+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-10T16:54:20+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the expense ratio of HDFC Mid Cap Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-10T16:54:20+0900 INFO [runtime.phase_7_safety] answer complete: query='What is the expense ratio of HDFC Mid Cap Fund?' route=factual refused=False validation_passed=True
+2026-06-10T16:54:20+0900 INFO [runtime.phase_8_threads] posted message: thread_id=d524f461-b76d-4c51-9118-4b50a3d0f48b route=factual refused=False history_count=2
+2026-06-10T16:54:20+0900 INFO [runtime.phase_9_api] api message complete: thread_id=d524f461-b76d-4c51-9118-4b50a3d0f48b refused=False
+2026-06-11T12:27:34+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the minimum SIP for HDFC ELSS Fund?' scheme_filter=hdfc_elss retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+2026-06-11T12:27:34+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the minimum SIP for HDFC ELSS Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-11T12:27:34+0900 INFO [runtime.phase_7_safety] answer complete: query='What is the minimum SIP for HDFC ELSS Fund?' route=factual refused=False validation_passed=True
+2026-06-11T12:27:34+0900 INFO [runtime.phase_8_threads] posted message: thread_id=d524f461-b76d-4c51-9118-4b50a3d0f48b route=factual refused=False history_count=4
+2026-06-11T12:27:34+0900 INFO [runtime.phase_9_api] api message complete: thread_id=d524f461-b76d-4c51-9118-4b50a3d0f48b refused=False
+2026-06-11T12:28:01+0900 INFO [runtime.phase_7_safety] advisory refusal: query='Should I invest in HDFC Mid Cap?' matched_keyword=should i
+2026-06-11T12:28:01+0900 INFO [runtime.phase_8_threads] posted message: thread_id=d524f461-b76d-4c51-9118-4b50a3d0f48b route=advisory refused=True history_count=6
+2026-06-11T12:28:01+0900 INFO [runtime.phase_9_api] api message complete: thread_id=d524f461-b76d-4c51-9118-4b50a3d0f48b refused=True
+2026-06-11T13:35:49+0900 INFO [runtime.phase_9_api] created thread: id=729b84bf-fe72-4816-9b15-5bae024b4229
+2026-06-11T13:35:54+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-11T13:35:54+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the expense ratio of HDFC Mid Cap Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-11T13:35:54+0900 INFO [runtime.phase_7_safety] answer complete: query='What is the expense ratio of HDFC Mid Cap Fund?' route=factual refused=False validation_passed=True
+2026-06-11T13:35:54+0900 INFO [runtime.phase_8_threads] posted message: thread_id=729b84bf-fe72-4816-9b15-5bae024b4229 route=factual refused=False history_count=2
+2026-06-11T13:35:54+0900 INFO [runtime.phase_9_api] api message complete: thread_id=729b84bf-fe72-4816-9b15-5bae024b4229 refused=False
+2026-06-11T13:36:13+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What are the top holdings?' scheme_filter=None retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-11T13:36:14+0900 WARNING [runtime.phase_6_generation] generation failed validation: query='What are the top holdings?' errors=['sentence_count>3']
+2026-06-11T13:36:14+0900 ERROR [runtime.phase_6_generation] generation failed: query='What are the top holdings?' error=Groq API error status=429 body={"error":{"message":"Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01knm2teqzfhnv2955sw9czt8s` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 3272, Requested 2775. Please try again in 470ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-06-11T13:36:14+0900 INFO [runtime.phase_7_safety] answer complete: query='What are the top holdings?' route=factual refused=False validation_passed=False
+2026-06-11T13:36:14+0900 INFO [runtime.phase_8_threads] posted message: thread_id=729b84bf-fe72-4816-9b15-5bae024b4229 route=factual refused=False history_count=4
+2026-06-11T13:36:14+0900 INFO [runtime.phase_9_api] api message complete: thread_id=729b84bf-fe72-4816-9b15-5bae024b4229 refused=False
+2026-06-11T13:36:23+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='Who is the fund manager?' scheme_filter=None retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+2026-06-11T13:36:25+0900 INFO [runtime.phase_6_generation] generation complete: query='Who is the fund manager?' validation_passed=True regenerated=False used_fallback=False
+2026-06-11T13:36:25+0900 INFO [runtime.phase_7_safety] answer complete: query='Who is the fund manager?' route=factual refused=False validation_passed=True
+2026-06-11T13:36:25+0900 INFO [runtime.phase_8_threads] posted message: thread_id=729b84bf-fe72-4816-9b15-5bae024b4229 route=factual refused=False history_count=6
+2026-06-11T13:36:25+0900 INFO [runtime.phase_9_api] api message complete: thread_id=729b84bf-fe72-4816-9b15-5bae024b4229 refused=False
+2026-06-11T13:39:45+0900 INFO [runtime.phase_9_api] created thread: id=bd6d3687-2aa5-4526-bdab-aa7f25004d91
+2026-06-11T13:39:49+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-11T13:39:49+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the expense ratio of HDFC Mid Cap Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-11T13:39:49+0900 INFO [runtime.phase_7_safety] answer complete: query='What is the expense ratio of HDFC Mid Cap Fund?' route=factual refused=False validation_passed=True
+2026-06-11T13:39:49+0900 INFO [runtime.phase_8_threads] posted message: thread_id=bd6d3687-2aa5-4526-bdab-aa7f25004d91 route=factual refused=False history_count=2
+2026-06-11T13:39:49+0900 INFO [runtime.phase_9_api] api message complete: thread_id=bd6d3687-2aa5-4526-bdab-aa7f25004d91 refused=False
+2026-06-11T13:39:55+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What are the top holdings?' scheme_filter=None retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-11T13:39:56+0900 WARNING [runtime.phase_6_generation] generation failed validation: query='What are the top holdings?' errors=['sentence_count>3']
+2026-06-11T13:39:57+0900 ERROR [runtime.phase_6_generation] generation failed: query='What are the top holdings?' error=Groq API error status=429 body={"error":{"message":"Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01knm2teqzfhnv2955sw9czt8s` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 4543, Requested 2775. Please try again in 13.18s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-06-11T13:39:57+0900 INFO [runtime.phase_7_safety] answer complete: query='What are the top holdings?' route=factual refused=False validation_passed=False
+2026-06-11T13:39:57+0900 INFO [runtime.phase_8_threads] posted message: thread_id=bd6d3687-2aa5-4526-bdab-aa7f25004d91 route=factual refused=False history_count=4
+2026-06-11T13:39:57+0900 INFO [runtime.phase_9_api] api message complete: thread_id=bd6d3687-2aa5-4526-bdab-aa7f25004d91 refused=False
+2026-06-11T13:44:24+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='Who is the fund manager?' scheme_filter=None retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+2026-06-11T13:44:25+0900 WARNING [runtime.phase_6_generation] generation failed validation: query='Who is the fund manager?' errors=['sentence_count>3']
+2026-06-11T13:44:25+0900 INFO [runtime.phase_6_generation] generation complete: query='Who is the fund manager?' validation_passed=True regenerated=True used_fallback=False
+2026-06-11T13:44:25+0900 INFO [runtime.phase_7_safety] answer complete: query='Who is the fund manager?' route=factual refused=False validation_passed=True
+2026-06-11T13:44:25+0900 INFO [runtime.phase_8_threads] posted message: thread_id=bd6d3687-2aa5-4526-bdab-aa7f25004d91 route=factual refused=False history_count=6
+2026-06-11T13:44:25+0900 INFO [runtime.phase_9_api] api message complete: thread_id=bd6d3687-2aa5-4526-bdab-aa7f25004d91 refused=False
+2026-06-11T13:48:35+0900 INFO [runtime.phase_9_api] created thread: id=a145719b-3289-43c7-8013-c77742dc8269
+2026-06-11T13:48:40+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-11T13:48:40+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the expense ratio of HDFC Mid Cap Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-11T13:48:40+0900 INFO [runtime.phase_7_safety] answer complete: query='What is the expense ratio of HDFC Mid Cap Fund?' route=factual refused=False validation_passed=True
+2026-06-11T13:48:40+0900 INFO [runtime.phase_8_threads] posted message: thread_id=a145719b-3289-43c7-8013-c77742dc8269 route=factual refused=False history_count=2
+2026-06-11T13:48:40+0900 INFO [runtime.phase_9_api] api message complete: thread_id=a145719b-3289-43c7-8013-c77742dc8269 refused=False
+2026-06-11T13:48:50+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What are the top holdings?' scheme_filter=None retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-11T13:48:51+0900 WARNING [runtime.phase_6_generation] generation failed validation: query='What are the top holdings?' errors=['sentence_count>3']
+2026-06-11T13:48:52+0900 ERROR [runtime.phase_6_generation] generation failed: query='What are the top holdings?' error=Groq API error status=429 body={"error":{"message":"Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01knm2teqzfhnv2955sw9czt8s` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 4150, Requested 2613. Please try again in 7.63s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-06-11T13:48:52+0900 INFO [runtime.phase_7_safety] answer complete: query='What are the top holdings?' route=factual refused=False validation_passed=False
+2026-06-11T13:48:52+0900 INFO [runtime.phase_8_threads] posted message: thread_id=a145719b-3289-43c7-8013-c77742dc8269 route=factual refused=False history_count=4
+2026-06-11T13:48:52+0900 INFO [runtime.phase_9_api] api message complete: thread_id=a145719b-3289-43c7-8013-c77742dc8269 refused=False
+2026-06-11T13:49:02+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio?' scheme_filter=None retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+2026-06-11T13:49:03+0900 WARNING [runtime.phase_6_generation] generation failed validation: query='What is the expense ratio?' errors=['sentence_count>3']
+2026-06-11T13:49:03+0900 ERROR [runtime.phase_6_generation] generation failed: query='What is the expense ratio?' error=Groq API error status=429 body={"error":{"message":"Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01knm2teqzfhnv2955sw9czt8s` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5294, Requested 2207. Please try again in 15.009999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-06-11T13:49:03+0900 INFO [runtime.phase_7_safety] answer complete: query='What is the expense ratio?' route=factual refused=False validation_passed=False
+2026-06-11T13:49:03+0900 INFO [runtime.phase_8_threads] posted message: thread_id=a145719b-3289-43c7-8013-c77742dc8269 route=factual refused=False history_count=6
+2026-06-11T13:49:03+0900 INFO [runtime.phase_9_api] api message complete: thread_id=a145719b-3289-43c7-8013-c77742dc8269 refused=False
+2026-06-11T14:04:54+0900 INFO [runtime.phase_9_api] created thread: id=c3ad7c5c-2803-4732-ab83-b283ff7db1ed
+2026-06-11T14:04:58+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-11T14:04:59+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the expense ratio of HDFC Mid Cap Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-11T14:04:59+0900 INFO [runtime.phase_7_safety] answer complete: query='What is the expense ratio of HDFC Mid Cap Fund?' route=factual refused=False validation_passed=True
+2026-06-11T14:04:59+0900 INFO [runtime.phase_8_threads] posted message: thread_id=c3ad7c5c-2803-4732-ab83-b283ff7db1ed route=factual refused=False history_count=2
+2026-06-11T14:04:59+0900 INFO [runtime.phase_9_api] api message complete: thread_id=c3ad7c5c-2803-4732-ab83-b283ff7db1ed refused=False
+2026-06-11T14:05:04+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What are the top holdings?' scheme_filter=None retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-11T14:05:05+0900 INFO [runtime.phase_6_generation] generation complete: query='What are the top holdings?' validation_passed=True regenerated=False used_fallback=False
+2026-06-11T14:05:05+0900 INFO [runtime.phase_7_safety] answer complete: query='What are the top holdings?' route=factual refused=False validation_passed=True
+2026-06-11T14:05:05+0900 INFO [runtime.phase_8_threads] posted message: thread_id=c3ad7c5c-2803-4732-ab83-b283ff7db1ed route=factual refused=False history_count=4
+2026-06-11T14:05:05+0900 INFO [runtime.phase_9_api] api message complete: thread_id=c3ad7c5c-2803-4732-ab83-b283ff7db1ed refused=False
+2026-06-11T14:05:16+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the expense ratio?' scheme_filter=None retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+2026-06-11T14:05:17+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the expense ratio?' validation_passed=True regenerated=False used_fallback=False
+2026-06-11T14:05:17+0900 INFO [runtime.phase_7_safety] answer complete: query='What is the expense ratio?' route=factual refused=False validation_passed=True
+2026-06-11T14:05:17+0900 INFO [runtime.phase_8_threads] posted message: thread_id=c3ad7c5c-2803-4732-ab83-b283ff7db1ed route=factual refused=False history_count=6
+2026-06-11T14:05:17+0900 INFO [runtime.phase_9_api] api message complete: thread_id=c3ad7c5c-2803-4732-ab83-b283ff7db1ed refused=False
+2026-06-11T14:06:52+0900 INFO [runtime.phase_9_api] created thread: id=58e6fb20-509c-4a47-8501-681e4c25b5ea
+2026-06-11T14:06:55+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What are the top holdings?' scheme_filter=None retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-11T14:06:56+0900 WARNING [runtime.phase_6_generation] validation failed (initial): query='What are the top holdings?' max_sentences=5 errors=['sentence_count>5'] sentence_count=7 url_count=1 urls=['https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth'] footer_present=True forbidden_phrases=[] body_preview='I cannot find the requested fund in the provided context. The top holdings for HDFC Mid Cap Fund Direct Growth are: 1. Max Financial Services Ltd | Financial | Equity | 4.37% 2. AU Small Finance Bank Ltd | Financial | Equity | 4.24% 3. The '
+2026-06-11T14:06:57+0900 WARNING [runtime.phase_6_generation] validation failed (strict_retry): query='What are the top holdings?' max_sentences=5 errors=['url_count=0', 'missing_footer'] sentence_count=2 url_count=0 urls=[] footer_present=False forbidden_phrases=[] body_preview='I cannot find the requested fund in the provided context. The top holdings for the schemes provided are: - HDFC Mid Cap Fund Direct Growth: - Max Financial Services Ltd (4.37%) - AU Small Finance Bank Ltd (4.24%) - The Federal Bank Ltd (3.8'
+2026-06-11T14:06:57+0900 INFO [runtime.phase_6_generation] generation complete: query='What are the top holdings?' validation_passed=True regenerated=True used_fallback=True
+2026-06-11T14:06:57+0900 INFO [runtime.phase_7_safety] answer complete: query='What are the top holdings?' route=factual refused=False validation_passed=True
+2026-06-11T14:06:57+0900 INFO [runtime.phase_8_threads] posted message: thread_id=58e6fb20-509c-4a47-8501-681e4c25b5ea route=factual refused=False history_count=2
+2026-06-11T14:06:57+0900 INFO [runtime.phase_9_api] api message complete: thread_id=58e6fb20-509c-4a47-8501-681e4c25b5ea refused=False
+2026-06-11T14:09:49+0900 INFO [runtime.phase_6_generation] retrieval scoped to scheme: query='What are the top holdings of HDFC Mid Cap Fund?' scheme_id=hdfc_mid_cap
+2026-06-11T14:09:54+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What are the top holdings of HDFC Mid Cap Fund?' scheme_filter=hdfc_mid_cap retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-11T14:09:55+0900 INFO [runtime.phase_6_generation] generation complete: query='What are the top holdings of HDFC Mid Cap Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-11T14:10:54+0900 INFO [runtime.phase_9_api] created thread: id=33d487d0-1d46-4e52-aafc-9c4207095a0b
+2026-06-11T14:10:58+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What are the top holdings?' scheme_filter=None retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-06-11T14:10:59+0900 INFO [runtime.phase_6_generation] generation complete: query='What are the top holdings?' validation_passed=True regenerated=False used_fallback=False
+2026-06-11T14:10:59+0900 INFO [runtime.phase_7_safety] answer complete: query='What are the top holdings?' route=factual refused=False validation_passed=False
+2026-06-11T14:10:59+0900 INFO [runtime.phase_8_threads] posted message: thread_id=33d487d0-1d46-4e52-aafc-9c4207095a0b route=factual refused=False history_count=2
+2026-06-11T14:10:59+0900 INFO [runtime.phase_9_api] api message complete: thread_id=33d487d0-1d46-4e52-aafc-9c4207095a0b refused=False
+2026-06-11T14:11:38+0900 INFO [runtime.phase_7_safety] advisory refusal: query='Should I invest in HDFC Mid Cap' matched_keyword=should i
+2026-06-11T14:11:38+0900 INFO [runtime.phase_8_threads] posted message: thread_id=33d487d0-1d46-4e52-aafc-9c4207095a0b route=advisory refused=True history_count=4
+2026-06-11T14:11:38+0900 INFO [runtime.phase_9_api] api message complete: thread_id=33d487d0-1d46-4e52-aafc-9c4207095a0b refused=True
+2026-06-11T14:11:57+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='What is the exit load of HDFC ELSS Fund?' scheme_filter=hdfc_elss retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+2026-06-11T14:11:58+0900 INFO [runtime.phase_6_generation] generation complete: query='What is the exit load of HDFC ELSS Fund?' validation_passed=True regenerated=False used_fallback=False
+2026-06-11T14:11:58+0900 INFO [runtime.phase_7_safety] answer complete: query='What is the exit load of HDFC ELSS Fund?' route=factual refused=False validation_passed=True
+2026-06-11T14:11:58+0900 INFO [runtime.phase_8_threads] posted message: thread_id=33d487d0-1d46-4e52-aafc-9c4207095a0b route=factual refused=False history_count=6
+2026-06-11T14:11:58+0900 INFO [runtime.phase_9_api] api message complete: thread_id=33d487d0-1d46-4e52-aafc-9c4207095a0b refused=False
+2026-06-11T14:12:47+0900 INFO [runtime.phase_5_retrieval] retrieval complete: query='Which fund is better?' scheme_filter=None retrieval_count=5 citation_url=https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+2026-06-11T14:12:47+0900 INFO [runtime.phase_6_generation] generation complete: query='Which fund is better?' validation_passed=True regenerated=False used_fallback=False
+2026-06-11T14:12:47+0900 INFO [runtime.phase_7_safety] answer complete: query='Which fund is better?' route=factual refused=False validation_passed=True
+2026-06-11T14:12:47+0900 INFO [runtime.phase_8_threads] posted message: thread_id=33d487d0-1d46-4e52-aafc-9c4207095a0b route=factual refused=False history_count=6
+2026-06-11T14:12:47+0900 INFO [runtime.phase_9_api] api message complete: thread_id=33d487d0-1d46-4e52-aafc-9c4207095a0b refused=False

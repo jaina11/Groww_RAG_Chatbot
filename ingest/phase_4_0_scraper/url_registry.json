@@ -1,0 +1,37 @@
+[
+  {
+    "scheme_id": "hdfc_mid_cap",
+    "scheme_name": "HDFC Mid Cap Fund Direct Growth",
+    "amc": "HDFC",
+    "source_type": "groww_scheme_page",
+    "url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+  },
+  {
+    "scheme_id": "hdfc_equity",
+    "scheme_name": "HDFC Equity Fund Direct Growth",
+    "amc": "HDFC",
+    "source_type": "groww_scheme_page",
+    "url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+  },
+  {
+    "scheme_id": "hdfc_focused",
+    "scheme_name": "HDFC Focused Fund Direct Growth",
+    "amc": "HDFC",
+    "source_type": "groww_scheme_page",
+    "url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth"
+  },
+  {
+    "scheme_id": "hdfc_elss",
+    "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "amc": "HDFC",
+    "source_type": "groww_scheme_page",
+    "url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"
+  },
+  {
+    "scheme_id": "hdfc_large_cap",
+    "scheme_name": "HDFC Large Cap Fund Direct Growth",
+    "amc": "HDFC",
+    "source_type": "groww_scheme_page",
+    "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+  }
+]

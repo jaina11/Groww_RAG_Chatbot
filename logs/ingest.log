@@ -1,0 +1,86 @@
+2026-06-10T15:15:34+0900 INFO [ingest.phase_4_0_scraper] starting scrape run: registry=/Users/jaynatanna/Documents/M2-RAG-Chatbot/ingest/phase_4_0_scraper/url_registry.json raw_dir=data/raw
+2026-06-10T15:15:35+0900 INFO [ingest.phase_4_0_scraper] saved raw html: scheme_id=hdfc_mid_cap path=data/raw/hdfc_mid_cap_20260610.html bytes=406384 status=200
+2026-06-10T15:15:35+0900 INFO [ingest.phase_4_0_scraper] scrape run complete: total=1 success=1 failed=0
+2026-06-10T15:23:12+0900 INFO [ingest.phase_4_0_scraper] starting scrape run: registry=/Users/jaynatanna/Documents/M2-RAG-Chatbot/ingest/phase_4_0_scraper/url_registry.json raw_dir=data/raw
+2026-06-10T15:23:13+0900 INFO [ingest.phase_4_0_scraper] saved raw html: scheme_id=hdfc_mid_cap path=data/raw/hdfc_mid_cap_20260610.html bytes=406384 status=200
+2026-06-10T15:23:13+0900 INFO [ingest.phase_4_0_scraper] scrape run complete: total=1 success=1 failed=0
+2026-06-10T15:25:26+0900 INFO [ingest.phase_4_0_scraper] starting scrape run: registry=/Users/jaynatanna/Documents/M2-RAG-Chatbot/ingest/phase_4_0_scraper/url_registry.json raw_dir=data/raw
+2026-06-10T15:25:27+0900 INFO [ingest.phase_4_0_scraper] saved raw html: scheme_id=hdfc_mid_cap path=data/raw/hdfc_mid_cap_20260610.html bytes=406384 status=200
+2026-06-10T15:25:30+0900 INFO [ingest.phase_4_0_scraper] saved raw html: scheme_id=hdfc_equity path=data/raw/hdfc_equity_20260610.html bytes=396370 status=200
+2026-06-10T15:25:33+0900 INFO [ingest.phase_4_0_scraper] saved raw html: scheme_id=hdfc_focused path=data/raw/hdfc_focused_20260610.html bytes=357174 status=200
+2026-06-10T15:25:36+0900 INFO [ingest.phase_4_0_scraper] saved raw html: scheme_id=hdfc_elss path=data/raw/hdfc_elss_20260610.html bytes=385323 status=200
+2026-06-10T15:25:39+0900 INFO [ingest.phase_4_0_scraper] saved raw html: scheme_id=hdfc_large_cap path=data/raw/hdfc_large_cap_20260610.html bytes=371286 status=200
+2026-06-10T15:25:39+0900 INFO [ingest.phase_4_0_scraper] scrape run complete: total=5 success=5 failed=0
+2026-06-10T15:31:28+0900 INFO [ingest.phase_4_1_normalize] starting normalize run: raw_dir=data/raw normalized_dir=data/normalized chunks_dir=data/chunks
+2026-06-10T15:31:28+0900 ERROR [ingest.phase_4_1_normalize] normalize failed: scheme_id=hdfc_mid_cap path=data/raw/hdfc_mid_cap_20260610.html error='NoneType' object has no attribute 'get'
+2026-06-10T15:31:28+0900 ERROR [ingest.phase_4_1_normalize] normalize failed: scheme_id=hdfc_equity path=data/raw/hdfc_equity_20260610.html error='NoneType' object has no attribute 'get'
+2026-06-10T15:31:28+0900 ERROR [ingest.phase_4_1_normalize] normalize failed: scheme_id=hdfc_focused path=data/raw/hdfc_focused_20260610.html error='NoneType' object has no attribute 'get'
+2026-06-10T15:31:28+0900 ERROR [ingest.phase_4_1_normalize] normalize failed: scheme_id=hdfc_elss path=data/raw/hdfc_elss_20260610.html error='NoneType' object has no attribute 'get'
+2026-06-10T15:31:28+0900 ERROR [ingest.phase_4_1_normalize] normalize failed: scheme_id=hdfc_large_cap path=data/raw/hdfc_large_cap_20260610.html error='NoneType' object has no attribute 'get'
+2026-06-10T15:31:28+0900 INFO [ingest.phase_4_1_normalize] normalize run complete: total=5 success=0 failed=5
+2026-06-10T15:32:21+0900 INFO [ingest.phase_4_1_normalize] starting normalize run: raw_dir=data/raw normalized_dir=data/normalized chunks_dir=data/chunks
+2026-06-10T15:32:21+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_mid_cap raw=data/raw/hdfc_mid_cap_20260610.html chunks=6 normalized=data/normalized/hdfc_mid_cap_20260610.txt output=data/chunks/hdfc_mid_cap_20260610.json
+2026-06-10T15:32:21+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_equity raw=data/raw/hdfc_equity_20260610.html chunks=6 normalized=data/normalized/hdfc_equity_20260610.txt output=data/chunks/hdfc_equity_20260610.json
+2026-06-10T15:32:21+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_focused raw=data/raw/hdfc_focused_20260610.html chunks=4 normalized=data/normalized/hdfc_focused_20260610.txt output=data/chunks/hdfc_focused_20260610.json
+2026-06-10T15:32:21+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_elss raw=data/raw/hdfc_elss_20260610.html chunks=5 normalized=data/normalized/hdfc_elss_20260610.txt output=data/chunks/hdfc_elss_20260610.json
+2026-06-10T15:32:21+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_large_cap raw=data/raw/hdfc_large_cap_20260610.html chunks=5 normalized=data/normalized/hdfc_large_cap_20260610.txt output=data/chunks/hdfc_large_cap_20260610.json
+2026-06-10T15:32:21+0900 INFO [ingest.phase_4_1_normalize] normalize run complete: total=5 success=5 failed=0
+2026-06-10T15:37:57+0900 INFO [ingest.phase_4_1_normalize] starting normalize run: raw_dir=data/raw normalized_dir=data/normalized chunks_dir=data/chunks
+2026-06-10T15:37:57+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_mid_cap raw=data/raw/hdfc_mid_cap_20260610.html chunks=6 normalized=data/normalized/hdfc_mid_cap_20260610.txt output=data/chunks/hdfc_mid_cap_20260610.json
+2026-06-10T15:37:57+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_equity raw=data/raw/hdfc_equity_20260610.html chunks=6 normalized=data/normalized/hdfc_equity_20260610.txt output=data/chunks/hdfc_equity_20260610.json
+2026-06-10T15:37:57+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_focused raw=data/raw/hdfc_focused_20260610.html chunks=4 normalized=data/normalized/hdfc_focused_20260610.txt output=data/chunks/hdfc_focused_20260610.json
+2026-06-10T15:37:57+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_elss raw=data/raw/hdfc_elss_20260610.html chunks=5 normalized=data/normalized/hdfc_elss_20260610.txt output=data/chunks/hdfc_elss_20260610.json
+2026-06-10T15:37:57+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_large_cap raw=data/raw/hdfc_large_cap_20260610.html chunks=5 normalized=data/normalized/hdfc_large_cap_20260610.txt output=data/chunks/hdfc_large_cap_20260610.json
+2026-06-10T15:37:57+0900 INFO [ingest.phase_4_1_normalize] normalize run complete: total=5 success=5 failed=0
+2026-06-10T15:43:32+0900 INFO [ingest.phase_4_2_embed] starting embed run: chunks_dir=data/chunks embedded_dir=data/embedded
+2026-06-10T15:45:11+0900 INFO [ingest.phase_4_2_embed] loaded embedding model: model=BAAI/bge-small-en-v1.5 query_prefix='Represent this sentence: ' dimension=384
+2026-06-10T15:45:13+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_elss_20260610.json output=data/embedded/hdfc_elss_20260610.jsonl chunk_count=5
+2026-06-10T15:45:13+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_equity_20260610.json output=data/embedded/hdfc_equity_20260610.jsonl chunk_count=6
+2026-06-10T15:45:13+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_focused_20260610.json output=data/embedded/hdfc_focused_20260610.jsonl chunk_count=4
+2026-06-10T15:45:13+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_large_cap_20260610.json output=data/embedded/hdfc_large_cap_20260610.jsonl chunk_count=5
+2026-06-10T15:45:13+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_mid_cap_20260610.json output=data/embedded/hdfc_mid_cap_20260610.jsonl chunk_count=6
+2026-06-10T15:45:13+0900 INFO [ingest.phase_4_2_embed] embed run complete: files=5 success=5 failed=0 total_chunks=26 model=BAAI/bge-small-en-v1.5
+2026-06-10T15:48:04+0900 INFO [ingest.phase_4_2_embed] starting embed run: chunks_dir=data/chunks embedded_dir=data/embedded
+2026-06-10T15:48:08+0900 INFO [ingest.phase_4_2_embed] loaded embedding model: model=BAAI/bge-small-en-v1.5 query_prefix='Represent this sentence: ' dimension=384
+2026-06-10T15:48:08+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_elss_20260610.json output=data/embedded/hdfc_elss_20260610.jsonl chunk_count=5
+2026-06-10T15:48:08+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_equity_20260610.json output=data/embedded/hdfc_equity_20260610.jsonl chunk_count=6
+2026-06-10T15:48:08+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_focused_20260610.json output=data/embedded/hdfc_focused_20260610.jsonl chunk_count=4
+2026-06-10T15:48:08+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_large_cap_20260610.json output=data/embedded/hdfc_large_cap_20260610.jsonl chunk_count=5
+2026-06-10T15:48:08+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_mid_cap_20260610.json output=data/embedded/hdfc_mid_cap_20260610.jsonl chunk_count=6
+2026-06-10T15:48:08+0900 INFO [ingest.phase_4_2_embed] embed run complete: files=5 success=5 failed=0 total_chunks=26 model=BAAI/bge-small-en-v1.5
+2026-06-10T15:51:06+0900 INFO [ingest.phase_4_3_index] starting index run: embedded_dir=data/embedded chroma_dir=data/chroma/ collection=mf_faq_chunks
+2026-06-10T15:51:06+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_elss_20260610.jsonl upsert_count=5
+2026-06-10T15:51:06+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_equity_20260610.jsonl upsert_count=6
+2026-06-10T15:51:06+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_focused_20260610.jsonl upsert_count=4
+2026-06-10T15:51:06+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_large_cap_20260610.jsonl upsert_count=5
+2026-06-10T15:51:06+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_mid_cap_20260610.jsonl upsert_count=6
+2026-06-10T15:51:06+0900 INFO [ingest.phase_4_3_index] index run complete: files=5 success=5 failed=0 upsert_count=26 collection=mf_faq_chunks manifest=data/chroma/manifest.json
+2026-06-10T15:52:08+0900 INFO [ingest.phase_4_3_index] starting index run: embedded_dir=data/embedded chroma_dir=data/chroma/ collection=mf_faq_chunks
+2026-06-10T15:52:08+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_elss_20260610.jsonl upsert_count=5
+2026-06-10T15:52:08+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_equity_20260610.jsonl upsert_count=6
+2026-06-10T15:52:08+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_focused_20260610.jsonl upsert_count=4
+2026-06-10T15:52:08+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_large_cap_20260610.jsonl upsert_count=5
+2026-06-10T15:52:08+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_mid_cap_20260610.jsonl upsert_count=6
+2026-06-10T15:52:08+0900 INFO [ingest.phase_4_3_index] index run complete: files=5 success=5 failed=0 upsert_count=26 collection=mf_faq_chunks manifest=data/chroma/manifest.json
+2026-06-10T16:32:49+0900 INFO [ingest.phase_4_1_normalize] starting normalize run: raw_dir=data/raw normalized_dir=data/normalized chunks_dir=data/chunks
+2026-06-10T16:32:49+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_mid_cap raw=data/raw/hdfc_mid_cap_20260610.html chunks=8 normalized=data/normalized/hdfc_mid_cap_20260610.txt output=data/chunks/hdfc_mid_cap_20260610.json
+2026-06-10T16:32:49+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_equity raw=data/raw/hdfc_equity_20260610.html chunks=8 normalized=data/normalized/hdfc_equity_20260610.txt output=data/chunks/hdfc_equity_20260610.json
+2026-06-10T16:32:49+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_focused raw=data/raw/hdfc_focused_20260610.html chunks=6 normalized=data/normalized/hdfc_focused_20260610.txt output=data/chunks/hdfc_focused_20260610.json
+2026-06-10T16:32:49+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_elss raw=data/raw/hdfc_elss_20260610.html chunks=7 normalized=data/normalized/hdfc_elss_20260610.txt output=data/chunks/hdfc_elss_20260610.json
+2026-06-10T16:32:49+0900 INFO [ingest.phase_4_1_normalize] normalized and chunked: scheme_id=hdfc_large_cap raw=data/raw/hdfc_large_cap_20260610.html chunks=7 normalized=data/normalized/hdfc_large_cap_20260610.txt output=data/chunks/hdfc_large_cap_20260610.json
+2026-06-10T16:32:49+0900 INFO [ingest.phase_4_1_normalize] normalize run complete: total=5 success=5 failed=0
+2026-06-10T16:32:52+0900 INFO [ingest.phase_4_2_embed] starting embed run: chunks_dir=data/chunks embedded_dir=data/embedded
+2026-06-10T16:32:56+0900 INFO [ingest.phase_4_2_embed] loaded embedding model: model=BAAI/bge-small-en-v1.5 query_prefix='Represent this sentence: ' dimension=384
+2026-06-10T16:32:56+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_elss_20260610.json output=data/embedded/hdfc_elss_20260610.jsonl chunk_count=7
+2026-06-10T16:32:56+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_equity_20260610.json output=data/embedded/hdfc_equity_20260610.jsonl chunk_count=8
+2026-06-10T16:32:57+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_focused_20260610.json output=data/embedded/hdfc_focused_20260610.jsonl chunk_count=6
+2026-06-10T16:32:57+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_large_cap_20260610.json output=data/embedded/hdfc_large_cap_20260610.jsonl chunk_count=7
+2026-06-10T16:32:57+0900 INFO [ingest.phase_4_2_embed] embedded chunks: input=data/chunks/hdfc_mid_cap_20260610.json output=data/embedded/hdfc_mid_cap_20260610.jsonl chunk_count=8
+2026-06-10T16:32:57+0900 INFO [ingest.phase_4_2_embed] embed run complete: files=5 success=5 failed=0 total_chunks=36 model=BAAI/bge-small-en-v1.5
+2026-06-10T16:33:00+0900 INFO [ingest.phase_4_3_index] starting index run: embedded_dir=data/embedded chroma_dir=data/chroma/ collection=mf_faq_chunks
+2026-06-10T16:33:00+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_elss_20260610.jsonl upsert_count=7
+2026-06-10T16:33:00+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_equity_20260610.jsonl upsert_count=8
+2026-06-10T16:33:00+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_focused_20260610.jsonl upsert_count=6
+2026-06-10T16:33:00+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_large_cap_20260610.jsonl upsert_count=7
+2026-06-10T16:33:00+0900 INFO [ingest.phase_4_3_index] upserted chunks: input=data/embedded/hdfc_mid_cap_20260610.jsonl upsert_count=8
+2026-06-10T16:33:00+0900 INFO [ingest.phase_4_3_index] index run complete: files=5 success=5 failed=0 upsert_count=36 collection=mf_faq_chunks manifest=data/chroma/manifest.json
